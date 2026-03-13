@@ -3,15 +3,14 @@ class Solution {
         int max = Integer.MIN_VALUE;
         int sum = 0;
         for(int i=0; i<nums.length; i++){
-            sum = sum+nums[i];
-
-            if(max < sum){
-                max = sum;
+            sum += nums[i];
+            if(sum == 0){
+                sum = nums[i];
             }
 
-            if(sum < 0){
-                sum=0;
-            }
+            max = max<sum? sum: max;
+            sum = sum<0? 0: sum;
+
         }
         return max;
     }
