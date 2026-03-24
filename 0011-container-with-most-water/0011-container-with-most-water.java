@@ -5,8 +5,8 @@ class Solution {
         int right = height.length-1;
         
         while(left<right){
-            int ans = Math.min(height[left], height[right]) * (right-left);
-            answer = Math.max(ans, answer);
+            answer = Math.max(Math.min(height[left], height[right]) * (right-left), answer);
+            // answer = Math.max(ans, answer);
 
             if(height[left]<height[right]){
                 left++;
