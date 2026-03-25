@@ -5,7 +5,6 @@ class Solution {
 
         while(l<=r){
             int mid = l + (r-l)/2;
-            System.out.println(mid);
             if(nums[mid] == target){
                 return mid;
             }
@@ -23,8 +22,6 @@ class Solution {
                     r=mid-1;
                 }
             }
-
-            System.out.println(l+" "+r);
         }
         return -1;
     }
