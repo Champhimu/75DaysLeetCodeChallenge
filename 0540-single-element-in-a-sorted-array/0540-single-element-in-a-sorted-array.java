@@ -4,13 +4,23 @@ class Solution {
         int r=nums.length-1;
 
         while(l<r){
+            int mid= l+(r-l)/2;
+            boolean hasEven = (r-mid)%2 == 0;
 
-            if(nums[l] == nums[l+1]){
-                l+=2;
-            }
-
-            if(nums[r] == nums[r-1]){
-                r-=2;
+            if(nums[mid+1] == nums[mid]){
+                if(hasEven){
+                    l=mid+2;
+                }else{
+                    r=mid-1;
+                }
+            }else if(nums[mid-1] == nums[mid]){
+                if(hasEven){
+                    r=mid-2;
+                }else{
+                    l=mid+1;
+                }
+            }else{
+                return nums[mid];
             }
         }
         return nums[l];
