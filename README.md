@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0643-maximum-average-subarray-i](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
+| [0877-stone-game](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0877-stone-game](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 ## String
 |  |
 | ------- |
@@ -152,4 +154,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0877-stone-game](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
