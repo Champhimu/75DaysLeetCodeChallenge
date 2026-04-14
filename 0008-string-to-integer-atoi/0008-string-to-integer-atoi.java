@@ -1,34 +1,31 @@
 class Solution {
-    static final int INT_MIN = Integer.MIN_VALUE;
-    static final int INT_MAX = Integer.MAX_VALUE;
+    
+    static int helper(String s, int i, long val, int sign){
 
-    static int helper(String s, int i, long num, int sign){
-        // BASE CASE
+        //Base case
         if(i >= s.length() || !Character.isDigit(s.charAt(i))){
-            return (int)(sign*num);
+            return (int) (sign*val);
         }
+        val = val*10 + (s.charAt(i)-'0');
+        if(sign*val <= Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        if(sign*val >= Integer.MAX_VALUE) return Integer.MAX_VALUE;
 
-        num = num*10+(s.charAt(i) - '0');
-
-        // Handle Overflow
-        if(sign*num <= INT_MIN) return INT_MIN;
-        if(sign*num >= INT_MAX) return INT_MAX;
-
-        return helper(s, i+1, num, sign);
+        return helper(s,i+1,val,sign);
     }
 
     public int myAtoi(String s) {
         int i=0;
-        //Ignore whitespace
-        while(i < s.length() && s.charAt(i) == ' ') i++;
+        
+        //Remove whitespace
+        while(i<s.length() && s.charAt(i) == ' ') i++;
 
-        //Handle sign
-        int sign = 1; //default positive
+        //handle sign
+        int sign = 1;
         if(i<s.length() && (s.charAt(i) == '+' || s.charAt(i) == '-')){
             sign = (s.charAt(i) == '-') ? -1 : 1;
             i++;
         }
 
-        return helper(s, i, 0, sign);    
+        return helper(s, i, 0, sign);
     }
 }
