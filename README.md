@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2784-check-if-array-is-good](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/2784-check-if-array-is-good) |
 ## Hash Table
 |  |
 | ------- |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [2784-check-if-array-is-good](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/2784-check-if-array-is-good) |
 ## Sorting
 |  |
 | ------- |
@@ -55,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| [2784-check-if-array-is-good](https://github.com/Champhimu/75DaysLeetCodeChallenge/tree/master/2784-check-if-array-is-good) |
 ## Bit Manipulation
 |  |
 | ------- |
